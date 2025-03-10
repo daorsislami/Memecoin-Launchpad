@@ -20,5 +20,4 @@ contract Token is ERC20 {
         // mint functions create new tokens, and we're using the function of ERC20 contract
         _mint(msg.sender, _totalSupply);
     }
-
 }
